@@ -8,7 +8,7 @@ import ScratchReveal from "./ScratchReveal";
 import StoryIntro from "./StoryIntro";
 import CinematicStory from "./CinematicStory";
 import WeddingDetails from "./WeddingDetails";
-import OurEvents from "./OurEvents";
+import WeddingCelebrations from "./WeddingCelebrations";
 
 export default function WeddingInvitation() {
   const [isInvitationOpen, setIsInvitationOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function WeddingInvitation() {
   <StoryIntro />
   <CinematicStory />
   <WeddingDetails />
-  <OurEvents />
+ <WeddingCelebrations />
 </>
       )}
     </main>
