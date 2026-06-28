@@ -1,4 +1,4 @@
-import WeddingInvitation from "@/src/components/WeddingInvitation";
+import WeddingInvitation from "../components/WeddingInvitation";
 
 export default function Home() {
   return <WeddingInvitation />;
